@@ -1,0 +1,18 @@
+
+
+section picture img {
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 10px brown;
+    margin: 10px;
+    
+}
+
+section img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+  section img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
+
